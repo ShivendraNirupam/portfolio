@@ -265,6 +265,14 @@ header ul a:hover{
 }
 
 @media screen and (max-width: 700px){
+    body{
+        background-image: url('/assets/images/mobile.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    video{
+        display: none;
+    }
     header ul{
         display: none;
     }
@@ -280,6 +288,9 @@ header ul a:hover{
     .about-section{
         width: 80%;
         flex-wrap: wrap;
+    }
+    #hero-title{
+        color: white;
     }
     .hero{
         flex-direction: column;
